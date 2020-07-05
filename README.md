@@ -11,6 +11,6 @@ Growth tool for manual Instagram interactions
 7. Now, run open_new_usernames.py
 
 ### How it works:
-get_usernames.py collects all usernames from the HTML and writes unprocessed username to new_usernames.csv
+* get_usernames.py collects all usernames from the HTML and writes unprocessed username to new_usernames.csv
 
-open_usernames.py will open usernames from new_usernames.csv one at a time. After a username is opened, it is removed from from new_usernames.csv and written to processed_usernames.csv
+* open_usernames.py will open usernames from new_usernames.csv one at a time. After a username is opened, it is removed from from new_usernames.csv and written to processed_usernames.csv
